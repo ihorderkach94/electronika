@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&family=Raleway:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="img_cover_container">
+            <img src="img/washing-machine.png" alt="" class="img_cover">
+        </div>
+
+<div class="wrapper _container">
+    <div class="nav_wrapper">
+        <div class="header_title">
+            <a href="indexlv.html" class="header_title_link">Electronika.LV</a>
+        </div>
+
+        <ul class="nav_links">
+            <li class="nav_link"> <a href="indexlv.html" class="nav_link_item"> <i class="bi bi-house-fill"></i> Mājās</a> </li>
+            <li class="nav_link" onclick="showModal3()"> <i class="bi bi-wrench-adjustable-circle-fill"> </i> Pieslēgums</li>
+            <li class="nav_link" id="brand" onclick="showModal()"> <i class="bi bi-tags"></i> Brendi</li>
+            <li class="nav_link"> <a href="index.html" class="nav_link_item"> <i class="bi bi-translate"></i> RU | LV</a> </li>
+        </ul>
+    </div>
+
+    <div class="header_main_title">
+        Sadzīves tehnikas <br> remonts un <br> pieslēgšana
+    </div>
+
+    <div class="header_under_main_title">
+        Diagnostika, veļas mašīnu remonts un pieslēgšana, <br> trauku mazgājamās mašīnas, gāzes un elektriskas plītis, <br> mēs arī
+        remontējam Schadler tehniku.
+    </div>
+
+    <div class="header_buttons">
+        <div class="first_button">
+            <button class="order button" onclick="showModal3()">
+                Tel. +37127266300
+            </button>
+        </div>
+
+        <div class="second_button">
+            <button class="marks button" onclick="showModal4()">
+                Rezerves daļu pasūtīšana
+            </button>
+        </div>
+    </div>
+</div>
+    </header>
+
+    <main class="main _container">
+        <div class="main_title">
+            Priekšrocības
+        </div>
+        <div class="main_under_title">
+            Mūsu servisa priekšrocības un meistari, kuri dara savu darbu ļoti kvalitatīvi.
+        </div>
+
+        <div class="main_cards_container" >
+            <div class="main_card main_card_first animate__animated animate__fadeInLeft wow" data-wow-duration="1.2s">
+                <div class="card_content card_content_first">
+                    <div class="card_icon card_icon_first"> <i class="bi bi-check-circle bag"></i> </div>
+                    <div class="card_text">Remontu, un arī pieslēgumu gāzei un elektrībai veic sertificēts, pārbaudīts meistars.</div> 
+                </div>
+            </div>
+
+            <div class="main_card main_card_two animate__animated animate__fadeInLeft wow " data-wow-duration="1.2s">
+                <div class="card_content card_content_two">
+                    <div class="card_icon"> <i class="bi bi-telephone bag"></i> </div>
+                    <div class="card_text">Ātra atbilde uz Jūsu zvaniem, veicam arī izbraukšanu uz Rīgu un tās visiem reģioniem.</div> 
+                </div>
+            </div>
+
+            <div class="main_card main_card_three animate__animated animate__fadeInLeft wow " data-wow-duration="1.2s">
+                <div class="card_content card_content_three">
+                    <div class="card_icon"> <i class="bi bi-card-checklist bag"></i> </div>
+                    <div class="card_text">Demokrātiskas cenas un cienīgas atlaides pensionāriem un invalīdiem.</div> 
+                </div>
+            </div>
+
+            <div class="main_card main_card_three animate__animated animate__fadeInLeft wow " data-wow-duration="1.2s">
+                <div class="card_content card_content_three">
+                    <div class="card_icon"> <i class="bi bi-bag-check bag"></i> </div>
+                    <div class="card_text"> Visas mūsu veļas mašīnu daļas ir oriģinālas un pasūtītas tieši no ražotāja.</div> 
+                </div>
+            </div>
+
+            <div class="main_card main_card_three animate__animated animate__fadeInLeft wow " data-wow-duration="1.2s">
+                <div class="card_content card_content_three">
+                    <div class="card_icon"> <i class="bi bi-wrench-adjustable-circle wrenchy bag"></i> </div>
+                    <div class="card_text"> Turpmāk apkalpojam arī visu Schadler brenda mājsaimniecības tehniku.</div> 
+                </div>
+            </div>
+        </div>
+        
+        <div class="work_time">
+            <div class="work_time_title">
+                Darba laiks
+            </div>
+            <div class="work_time_under_title">
+                Mūsu darba laiks, kurā jūs varat mums zvanīt.
+            </div>
+        </div>
+
+    <div class="work_time_wrapper">
+        <div class="work_time_container animate__animated animate__fadeInLeft wow" data-wow-duration="1.2s">
+            <div class="work_time_con_title">
+                Darba laiks
+            </div>
+
+            <div class="work_time_con_list">
+                <ul class="list_work">
+                    <li class="work_time_list_item">
+                        <div class="work_time_text">Pirmdiena: 9:00 - 18:00;</div>
+                    </li>
+
+                    <li class="work_time_list_item">
+                        <div class="work_time_text">Otrdiena: 9:00 - 18:00;</div> 
+                    </li>
+
+                    <li class="work_time_list_item">
+                        <div class="work_time_text">Trešdiena: 9:00 - 18:00;</div> 
+                    </li>
+
+                    <li class="work_time_list_item">
+                        <div class="work_time_text">Ceturdiena: 9:00 - 18:00;</div> 
+                    </li>
+
+                    <li class="work_time_list_item">
+                        <div class="work_time_text">Piektdiena: 9:00 - 18:00;</div> 
+                    </li>
+
+                    <li class="work_time_list_item">
+                        <div class="work_time_text">Sestdiena: 9:00 - 18:00;</div> 
+                    </li>
+
+                    <li class="work_time_list_item">
+                        <div class="work_time_text">Svētdiena: 9:00 - 18:00;</div> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    </main>
+
+    <div class="modal" id="myModal">
+        <div class="modal_content">
+            <div>
+                <span class="close" onclick="showModal()">&times;</span>
+            </div>
+
+            <p class="modal_title">Pieejami tehniku brendi</p>
+            <div class="modal_main">
+                <ul class="modal_main_list">
+                    <li id="brand_item" onclick="showModal2()"> <i class="bi bi-check-square-fill square"> </i> Electrolux</li>
+                    <li id="brand_item" onclick="showModal2()"> <i class="bi bi-check-square-fill square"> </i> Bosch</li>
+                    <li id="brand_item" onclick="showModal2()"> <i class="bi bi-check-square-fill square"> </i> Eurosoba</li>
+                    <li id="brand_item" onclick="showModal2()"> <i class="bi bi-check-square-fill square"> </i> Gorenje</li>
+                    <li id="brand_item" onclick="showModal2()"> <i class="bi bi-check-square-fill square"> </i> LG</li>
+                    <li id="brand_item" onclick="showModal2()"> <i class="bi bi-check-square-fill square"> </i> Siemens</li>
+                    <li id="brand_item" onclick="showModal2()"> <i class="bi bi-check-square-fill square"> </i> Samsung</li>
+                    <li id="brand_item" onclick="showModal2()"> <i class="bi bi-check-square-fill square"> </i> Schadler</li>
+                    <li id="brand_item" onclick="showModal2()"> <i class="bi bi-check-square-fill square"> </i> AEG</li>
+                    <li id="brand_item" onclick="showModal2()"> <i class="bi bi-check-square-fill square"> </i> Beko</li>
+                    <li id="brand_item" onclick="showModal2()"> <i class="bi bi-check-square-fill square"> </i> Neff</li>
+                    <li id="brand_item" onclick="showModal2()"> <i class="bi bi-check-square-fill square"> </i> Candy hoover</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal2" id="myModal2">
+        <div class="modal_content2">
+            <div>
+                <span class="close2" onclick="showModal2()">&times;</span>
+            </div>
+
+            <p class="modal_title2">Pieejami tehniku brendi</p>
+            <div class="modal_main2">
+                <div class="modal_main_text">
+                    Šis brends ir pieejams pasūtīšanai.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal3" id="myModal3">
+        <div class="modal_content3">
+            <div>
+                <span class="close3" onclick="showModal3()">&times;</span>
+            </div>
+
+            <p class="modal_title3">
+                Gāzes, elektrisko un indukcijas plīšu un arī veļasmašīnu un trauku mazgājamo mašīnu pieslēgšana</p>
+            <div class="modal_main3">
+                Meistara pasūtījums jūsu mājā pa tālruni: +37127266300
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal4" id="myModal4">
+        <div class="modal_content4">
+            <div>
+                <span class="close4" onclick="showModal4()">&times;</span>
+            </div>
+
+            <p class="modal_title4">Rezerves daļu pasūtīšana</p>
+            <div class="modal_main4">
+                <div class="modal_main_form">
+                    <form action="https://formspree.io/f/mknaeyvq" method="POST"
+
+                        <fieldset id="fs-frm-inputs">
+                          <label for="full-name">Pilns vārds</label> <br>
+                          <input type="text" name="name" id="full-name" placeholder="Vārds un uzvārds" required> <br>
+                          <label for="email-address">Pasta adrese</label> <br>
+                          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required> <br>
+                          <label for="telephone">Telefona numurs</label> <br>
+                          <input type="tel" name="telephone" id="telephone" placeholder="(555) 555-5555" required> <br>
+                          <label for="complaint">Detaļu pasūtīšana</label> <br>
+                          <textarea rows="6" name="complaint" id="complaint" placeholder="Kādas daļas jūs vēlētos pasūtīt?" required></textarea>
+                          <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission"> <br>
+                        </fieldset>
+                        <input type="submit" value="Pasūtīt">
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="wow.min.js"></script>
+    <script> new WOW().init();
+    </script>
+</body>
+</html>
